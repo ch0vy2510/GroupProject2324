@@ -18,23 +18,23 @@ const About = () => {
         </div>
       </div>
 
-      <div className="flex justify-between mt-3">
-        <div className="w-1/5 bg-gray-300 p-6 rounded-lg aspect-w-1 aspect-h-1 mr-3">
+      <div className="flex justify-center mt-3">
+        <div className="w-1/5  p-6 rounded-lg aspect-w-3 aspect-h-1 mr-3">
           <h2 className="text-2xl font-bold mb-4">The Story Behind Your Gym</h2>
           <p>Content goes here...</p>
         </div>
-        <div className="w-1/5 bg-green-500 p-6 rounded-lg aspect-w-1 aspect-h-1 mr-3">
+        <div className="w-1/5 bg-green-500 p-6 rounded-lg aspect-w-3 aspect-h-3 mr-3">
           <h2 className="text-2xl font-bold mb-4">Our Mission</h2>
           <p>Content goes here...</p>
         </div>
       </div>
 
-      <div className="flex justify-between mt-3">
-        <div className="w-1/5 bg-blue-500 p-6 rounded-lg aspect-w-1 aspect-h-1 mr-3">
+      <div className="flex justify-center mt-3">
+        <div className="w-1/5 bg-blue-500 p-6 rounded-lg aspect-w-3 aspect-h-1 mr-3">
           <h2 className="text-2xl font-bold mb-4">The Story</h2>
           <p>Content goes here...</p>
         </div>
-        <div className="w-1/5 bg-gray-400 p-6 rounded-lg aspect-w-1 aspect-h-1">
+        <div className="w-1/5 bg-gray-400 p-6 rounded-lg aspect-w-3 aspect-h-1">
           <h2 className="text-2xl font-bold mb-4">Our Value</h2>
           <p>Content goes here...</p>
         </div>
@@ -47,39 +47,23 @@ const About = () => {
         </div>
       </div>
 
-      <div className="flex justify-between mt-3">
-        <div className="w-1/5 p-6 rounded-lg aspect-w-1 aspect-h-1">
-          <h2 className="text-2xl font-bold mb-4">Respect Your Body, It's The Only One You Get</h2>
-          <p>More content goes here...</p>
-        </div>
-      </div>
+      
 
       <div className="flex justify-between mt-3">
-        <div className="w-2/5 p-6 rounded-lg aspect-square">
-          <h2 className="text-2xl font-bold mb-4">Respect Your Body, It's The Only One You Get</h2>
-          <p>More content goes here...</p>
-        </div>
-      </div>
+  <div className="w-2/5 bg-gray-300 p-6 rounded-lg aspect-w-1 aspect-h-1">
+    <div>
+      <h2 className="text-2xl font-bold mb-4">Inspiration</h2>
+      <p>Content for Inspiration goes here...</p>
+    </div>
+  </div>
+  <div className="w-2/5 bg-gray-300 p-6 rounded-lg aspect-w-1 aspect-h-1 mt-3">
+    <div>
+      <h2 className="text-2xl font-bold mb-4">Motivation</h2>
+      <p>Content for Motivation goes here...</p>
+    </div>
+  </div>
+</div>
 
-      <div className="flex justify-between mt-3">
-        <div className="w-2/5 p-6 rounded-lg aspect-w-1 aspect-h-1">
-          <h2 className="text-2xl font-bold mb-4">Respect Your Body, It's The Only One You Get</h2>
-          <p>More content goes here...</p>
-        </div>
-      </div>
-
-      <div className="flex justify-between mt-3">
-        <div className="w-2/5 p-6 rounded-lg aspect-w-1 aspect-h-1">
-          <div>
-            <h2 className="text-2xl font-bold mb-4">Inspiration</h2>
-            <p>Content for Inspiration goes here...</p>
-          </div>
-          <div className="mt-4">
-            <h2 className="text-2xl font-bold mb-4">Motivation</h2>
-            <p>Content for Motivation goes here...</p>
-          </div>
-        </div>
-      </div>
 
       <div className="mt-8 bg-black p-4">
         <h2 className="text-3xl font-bold mb-4 text-white">Our Key Features</h2>
@@ -94,3 +78,4 @@ const About = () => {
 };
 
 export default About;
+
