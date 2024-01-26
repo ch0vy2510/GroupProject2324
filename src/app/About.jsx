@@ -47,8 +47,6 @@ const About = () => {
         </div>
       </div>
 
-      
-
       <div className="flex justify-between mt-3">
   <div className="w-2/5 bg-gray-300 p-6 rounded-lg aspect-w-1 aspect-h-1">
     <div>
@@ -56,6 +54,9 @@ const About = () => {
       <p>Content for Inspiration goes here...</p>
     </div>
   </div>
+</div>
+
+<div className="flex justify-between mt-3">
   <div className="w-2/5 bg-gray-300 p-6 rounded-lg aspect-w-1 aspect-h-1 mt-3">
     <div>
       <h2 className="text-2xl font-bold mb-4">Motivation</h2>
@@ -63,6 +64,9 @@ const About = () => {
     </div>
   </div>
 </div>
+
+
+      
 
 
       <div className="mt-8 bg-black p-4">
@@ -78,4 +82,5 @@ const About = () => {
 };
 
 export default About;
+
 
